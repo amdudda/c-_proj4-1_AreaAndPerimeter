@@ -1,6 +1,6 @@
 ﻿namespace Proj4_1_Dudda
 {
-    partial class Form1
+    partial class frmAreaAndPerimeter
     {
         /// <summary>
         /// Required designer variable.
@@ -65,7 +65,7 @@
             this.label3.Location = new System.Drawing.Point(28, 75);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 2;
+            this.label3.TabIndex = 3;
             this.label3.Text = "&Width";
             // 
             // label4
@@ -74,7 +74,7 @@
             this.label4.Location = new System.Drawing.Point(28, 100);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(29, 13);
-            this.label4.TabIndex = 3;
+            this.label4.TabIndex = 5;
             this.label4.Text = "Area";
             // 
             // label5
@@ -83,7 +83,7 @@
             this.label5.Location = new System.Drawing.Point(28, 125);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(51, 13);
-            this.label5.TabIndex = 4;
+            this.label5.TabIndex = 6;
             this.label5.Text = "Perimeter";
             // 
             // txtLength
@@ -91,14 +91,14 @@
             this.txtLength.Location = new System.Drawing.Point(105, 42);
             this.txtLength.Name = "txtLength";
             this.txtLength.Size = new System.Drawing.Size(100, 20);
-            this.txtLength.TabIndex = 5;
+            this.txtLength.TabIndex = 2;
             // 
             // txtWidth
             // 
             this.txtWidth.Location = new System.Drawing.Point(105, 67);
             this.txtWidth.Name = "txtWidth";
             this.txtWidth.Size = new System.Drawing.Size(100, 20);
-            this.txtWidth.TabIndex = 6;
+            this.txtWidth.TabIndex = 4;
             // 
             // txtArea
             // 
@@ -107,6 +107,7 @@
             this.txtArea.ReadOnly = true;
             this.txtArea.Size = new System.Drawing.Size(100, 20);
             this.txtArea.TabIndex = 7;
+            this.txtArea.TabStop = false;
             // 
             // txtPerimeter
             // 
@@ -115,6 +116,7 @@
             this.txtPerimeter.ReadOnly = true;
             this.txtPerimeter.Size = new System.Drawing.Size(100, 20);
             this.txtPerimeter.TabIndex = 8;
+            this.txtPerimeter.TabStop = false;
             // 
             // btnCalculate
             // 
@@ -128,6 +130,7 @@
             // 
             // btnExit
             // 
+            this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnExit.Location = new System.Drawing.Point(129, 164);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
