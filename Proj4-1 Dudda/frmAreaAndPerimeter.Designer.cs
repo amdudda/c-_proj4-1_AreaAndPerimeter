@@ -46,9 +46,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(3, -1);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(127, 13);
+            this.label1.Size = new System.Drawing.Size(195, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "A. M. Dudda - Project 4.1";
+            this.label1.Text = "A. M. Dudda - Project 4.1 enhancement";
             // 
             // label2
             // 
@@ -92,6 +92,7 @@
             this.txtLength.Name = "txtLength";
             this.txtLength.Size = new System.Drawing.Size(100, 20);
             this.txtLength.TabIndex = 2;
+            this.txtLength.TextChanged += new System.EventHandler(this.EntryBox_textChanged);
             // 
             // txtWidth
             // 
@@ -99,6 +100,7 @@
             this.txtWidth.Name = "txtWidth";
             this.txtWidth.Size = new System.Drawing.Size(100, 20);
             this.txtWidth.TabIndex = 4;
+            this.txtWidth.TextChanged += new System.EventHandler(this.EntryBox_textChanged);
             // 
             // txtArea
             // 
@@ -139,7 +141,7 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // Form1
+            // frmAreaAndPerimeter
             // 
             this.AcceptButton = this.btnCalculate;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -157,7 +159,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "frmAreaAndPerimeter";
             this.Text = "Area and Perimeter";
             this.ResumeLayout(false);
             this.PerformLayout();
